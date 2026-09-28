@@ -1,0 +1,24 @@
+# ==========================================
+# Fichiers à NE JAMAIS envoyer sur GitHub
+# ==========================================
+
+# Le fichier contenant vos vrais identifiants MySQL
+.env
+
+# Fichiers techniques générés par Python (pas besoin de les partager)
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnement virtuel Python, si vous en utilisez un
+venv/
+env/
+.venv/
+
+# Fichiers de configuration d'éditeurs de code
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
